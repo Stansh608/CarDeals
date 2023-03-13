@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "589345975575",
+    "firebase_url": "https://carsale-71481-default-rtdb.firebaseio.com",
+    "project_id": "carsale-71481",
+    "storage_bucket": "carsale-71481.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589345975575:android:cd73bc0479f7d136855b52",
+        "android_client_info": {
+          "package_name": "com.example.cardeals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589345975575-h2s0597fh93juu45cmm1naaqbculvtmc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTkwAGdRDM1dAS3Z0KgXlhS8vuZoFk-94"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589345975575-h2s0597fh93juu45cmm1naaqbculvtmc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

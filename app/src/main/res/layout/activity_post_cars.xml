@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/backgroundview"
+        tools:context=".PostCars">
+        <ScrollView
+            android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:visibility="visible"
+            android:paddingVertical="@dimen/cardview_default_elevation">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+               >
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Add Car Details"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/logo"
+                    android:paddingStart="3dp"
+                    android:paddingEnd="30dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+
+                    android:textSize="30dp"
+                    android:textStyle="bold|normal" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="151dp"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/image"
+                        android:layout_width="285dp"
+
+                        android:layout_height="match_parent"
+
+
+                        android:layout_marginRight="2dp"
+
+                        android:background="#5A5A5A"
+
+                        app:shapeAppearance="@style/circular_disp" />
+
+                    <Button
+                        android:id="@+id/btnselect"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/round_button"
+                        android:text="Select" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="2dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="#3F51B5" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+
+                        android:layout_marginRight="20dp"
+
+                        android:paddingStart="5dp"
+
+                        android:text="Make"
+
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        android:textStyle="normal" />
+
+                    <EditText
+                        android:id="@+id/etmake"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:paddingStart="10dp"
+                        android:hint="Bentley, Mazda, Bugatti"
+                        android:paddingEnd="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:paddingTop="0dp"
+
+                        android:textStyle="bold|normal"
+                        android:textColor="@color/black"
+
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+
+                        android:layout_marginRight="20dp"
+
+                        android:paddingStart="5dp"
+
+                        android:text="Model"
+
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        android:textStyle="normal" />
+
+                    <EditText
+                        android:id="@+id/etmodel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:paddingStart="10dp"
+                        android:hint="2015, 2019"
+                        android:paddingEnd="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:paddingTop="0dp"
+
+                        android:textStyle="bold|normal"
+                        android:textColor="@color/black"
+
+                        />
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+
+                        android:layout_marginRight="20dp"
+
+                        android:paddingStart="5dp"
+
+                        android:text="Engine"
+
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        android:textStyle="normal" />
+
+                    <EditText
+                        android:id="@+id/etengine"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:paddingStart="10dp"
+                        android:hint="Petrol, Electric or Diesel"
+                        android:paddingEnd="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:paddingTop="0dp"
+
+                        android:textStyle="bold|normal"
+                        android:textColor="@color/black"
+
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+
+                        android:layout_marginRight="20dp"
+
+                        android:paddingStart="5dp"
+                        android:paddingTop="0dp"
+
+
+                        android:text="Kilometres"
+
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        android:textStyle="normal" />
+
+                    <EditText
+                        android:id="@+id/etkm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+
+                        android:paddingStart="10dp"
+                        android:paddingEnd="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:paddingTop="0dp"
+                        android:hint="500km"
+
+                        android:textStyle="bold|normal"
+                        android:textColor="@color/black"
+
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+
+                        android:layout_marginRight="20dp"
+
+                        android:paddingStart="5dp"
+                        android:paddingTop="0dp"
+
+                        android:text="Wheels"
+
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        android:textStyle="normal" />
+
+                    <EditText
+                        android:id="@+id/etwheels"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+
+                        android:paddingStart="10dp"
+                        android:paddingEnd="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:paddingTop="0dp"
+                        android:hint="4, 10,22"
+
+                        android:textStyle="bold|normal"
+                        android:textColor="@color/black"
+
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+
+                        android:layout_marginRight="20dp"
+
+                        android:paddingStart="5dp"
+                        android:paddingTop="0dp"
+
+                        android:text="Color"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        android:textStyle="normal" />
+
+                    <EditText
+                        android:id="@+id/etcolor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+
+                        android:paddingStart="10dp"
+                        android:paddingEnd="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:paddingTop="0dp"
+                        android:hint="Blue, Black"
+
+                        android:textStyle="bold|normal"
+                        android:textColor="@color/black"
+
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+
+                        android:layout_marginRight="20dp"
+
+                        android:paddingStart="5dp"
+                        android:paddingTop="0dp"
+
+                        android:text="Interior"
+
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        android:textStyle="normal" />
+
+                    <EditText
+                        android:id="@+id/etinterior"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+
+                        android:paddingStart="10dp"
+                        android:paddingEnd="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:paddingTop="0dp"
+                        android:hint="Black, Blue"
+
+                        android:textStyle="bold|normal"
+                        android:textColor="@color/black"
+
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+
+                        android:layout_marginRight="20dp"
+
+                        android:paddingStart="5dp"
+                        android:paddingTop="0dp"
+
+                        android:text="Gearbox"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        android:textStyle="normal" />
+
+                    <EditText
+                        android:id="@+id/etgear"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+
+                        android:paddingStart="10dp"
+                        android:paddingEnd="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:paddingTop="0dp"
+                        android:hint="Automatic, Manual"
+
+                        android:textStyle="bold|normal"
+                        android:textColor="@color/black"
+
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+
+                        android:layout_marginRight="20dp"
+
+                        android:paddingStart="5dp"
+                        android:paddingTop="0dp"
+
+                        android:text="Seats"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        android:textStyle="normal" />
+
+                    <EditText
+                        android:id="@+id/etseats"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+
+                        android:paddingStart="10dp"
+                        android:paddingEnd="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:paddingTop="0dp"
+                        android:hint="2, 4, 8"
+
+                        android:textStyle="bold|normal"
+                        android:textColor="@color/black"
+
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+
+                        android:layout_marginRight="20dp"
+
+                        android:paddingStart="5dp"
+                        android:paddingTop="0dp"
+
+                        android:text="Cylinders"
+
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        android:textStyle="normal" />
+
+                    <EditText
+                        android:id="@+id/etcylinders"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+
+                        android:paddingStart="10dp"
+                        android:paddingEnd="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:paddingTop="0dp"
+                        android:hint="6, 8, 12"
+
+                        android:textStyle="bold|normal"
+                        android:textColor="@color/black"
+
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+
+                        android:layout_marginRight="20dp"
+
+                        android:paddingStart="5dp"
+                        android:paddingTop="0dp"
+
+                        android:text="Airbags"
+
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        android:textStyle="normal" />
+
+                    <EditText
+                        android:id="@+id/etairbags"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+
+                        android:paddingStart="10dp"
+                        android:paddingEnd="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:paddingTop="0dp"
+                        android:hint="Front or Front and sides"
+
+                        android:textStyle="bold|normal"
+                        android:textColor="@color/black"
+
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="20dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+
+                        android:layout_marginRight="20dp"
+
+                        android:paddingStart="5dp"
+
+                        android:text="Price: $"
+
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        android:textStyle="normal" />
+
+                    <EditText
+                        android:id="@+id/etprice"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:paddingStart="10dp"
+                        android:hint="3000, 340000"
+                        android:paddingEnd="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:paddingTop="0dp"
+
+                        android:textStyle="bold|normal"
+                        android:textColor="@color/black"
+
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+
+                        android:layout_marginRight="20dp"
+
+                        android:paddingStart="5dp"
+
+                        android:text="Short Description"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="19dp"
+                        android:textStyle="bold|normal"
+                        android:layout_marginBottom="5dp"/>
+
+                    <EditText
+                        android:id="@+id/etdescribe"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:textSize="16dp"
+                        android:paddingStart="10dp"
+                        android:hint="write a small paragraph about aadditional unique features of your car."
+                        android:paddingEnd="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:paddingTop="0dp"
+
+                        android:textStyle="bold|normal"
+                        android:textColor="@color/black"
+
+                        />
+                </LinearLayout>
+
+
+
+
+                <Button
+                    android:id="@+id/btnpost"
+                    android:layout_width="396dp"
+                    android:layout_height="65dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="15dp"
+                    android:text="Post"
+                    android:textColor="@color/ic_launcher_background"
+                    android:textSize="20dp"
+                    app:backgroundTint="@null" />
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+    </LinearLayout>

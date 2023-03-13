@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="circular_profile">
+    <item name="cornerSize">60%</item>
+    </style>
+    <style name="circular_img">
+        <item name="cornerSize">30%</item>
+    </style>
+    <style name="circular_disp">
+        <item name="cornerSize">5%</item>
+    </style>
+    <style name="circular_logo">
+        <item name="cornerSize">50%</item>
+    </style>
+
+</resources>

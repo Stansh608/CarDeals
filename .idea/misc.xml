@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/STANSH/AndroidStudioProjects/CarDeals/app/src/main/res/drawable/ic_baseline_email.xml" value="0.1" />
+        <entry key="..\:/Users/STANSH/AndroidStudioProjects/CarDeals/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.1" />
+        <entry key="..\:/Users/STANSH/AndroidStudioProjects/CarDeals/app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.1" />
+        <entry key="..\:/Users/STANSH/AndroidStudioProjects/CarDeals/app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.1" />
+        <entry key="..\:/Users/STANSH/AndroidStudioProjects/CarDeals/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1665" />
+        <entry key="..\:/Users/STANSH/AndroidStudioProjects/CarDeals/app/src/main/res/drawable/inputs_shape.xml" value="0.1" />
+        <entry key="..\:/Users/STANSH/AndroidStudioProjects/CarDeals/app/src/main/res/drawable/login_body.xml" value="0.1" />
+        <entry key="..\:/Users/STANSH/AndroidStudioProjects/CarDeals/app/src/main/res/drawable/round_button.xml" value="0.1665" />
+        <entry key="..\:/Users/STANSH/AndroidStudioProjects/CarDeals/app/src/main/res/drawable/round_shape.xml" value="0.1" />
+        <entry key="..\:/Users/STANSH/AndroidStudioProjects/CarDeals/app/src/main/res/drawable/seller.xml" value="0.1" />
+        <entry key="..\:/Users/STANSH/AndroidStudioProjects/CarDeals/app/src/main/res/layout/activity_car_details.xml" value="0.1" />
+        <entry key="..\:/Users/STANSH/AndroidStudioProjects/CarDeals/app/src/main/res/layout/activity_confirm_payment.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/STANSH/AndroidStudioProjects/CarDeals/app/src/main/res/layout/activity_forgot_password.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/STANSH/AndroidStudioProjects/CarDeals/app/src/main/res/layout/activity_home.xml" value="0.17799752781211373" />
+        <entry key="..\:/Users/STANSH/AndroidStudioProjects/CarDeals/app/src/main/res/layout/activity_landing_page.xml" value="0.1" />
+        <entry key="..\:/Users/STANSH/AndroidStudioProjects/CarDeals/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/STANSH/AndroidStudioProjects/CarDeals/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/STANSH/AndroidStudioProjects/CarDeals/app/src/main/res/layout/activity_post_cars.xml" value="0.209375" />
+        <entry key="..\:/Users/STANSH/AndroidStudioProjects/CarDeals/app/src/main/res/layout/activity_profile.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/STANSH/AndroidStudioProjects/CarDeals/app/src/main/res/layout/activity_profiles.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/STANSH/AndroidStudioProjects/CarDeals/app/src/main/res/layout/activity_signup.xml" value="0.1" />
+        <entry key="..\:/Users/STANSH/AndroidStudioProjects/CarDeals/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Users/STANSH/AndroidStudioProjects/CarDeals/app/src/main/res/layout/carlist.xml" value="0.1" />
+        <entry key="..\:/Users/STANSH/AndroidStudioProjects/CarDeals/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
